@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: yourdockerhub/webapp
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+environment: Development
+
+ingress:
+  enabled: false

@@ -1,0 +1,6 @@
+replicaCount: 1
+
+environment: Development
+
+image:
+  tag: v1
