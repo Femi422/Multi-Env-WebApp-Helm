@@ -1,5 +1,3 @@
-# Multi-Env-WebApp-Helm
-
 multi-env-webapp/
 │
 ├── app/
